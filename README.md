@@ -38,11 +38,11 @@
 <br>
 
 <div align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=hzyu-hub&show_icons=true&theme=tokyonight&hide_border=true&title_color=00bfff&icon_color=00bfff&text_color=ffffff&bg_color=0d1117" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hzyu-hub&layout=compact&theme=tokyonight&hide_border=true&title_color=00bfff&icon_color=00bfff&text_color=ffffff&bg_color=0d1117" />  
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=hzyu-hub&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hzyu-hub&layout=compact&theme=tokyonight&hide_border=true" />  
 <br/>
   
- <img width="600" src="https://github-readme-streak-stats.herokuapp.com/?user=hzyu-hub&theme=tokyonight&hide_border=true&stroke=00bfff&ring=00bfff&fire=00bfff&currStreakLabel=00bfff" />
+  <img width="600" src="https://github-readme-streak-stats.herokuapp.com/?user=hzyu-hub&theme=tokyonight&hide_border=true&stroke=00bfff&ring=00bfff&fire=00bfff&currStreakLabel=00bfff" />
 </div>
 <br/>
   
