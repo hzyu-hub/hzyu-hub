@@ -21,7 +21,7 @@
 
 | | |
 | :--- | :--- |
-| 🔭 **Currently working on** | Hackthon Challenge. |
+| 🔭 **Currently working on** | Hackathon Challenge. |
 | 🌱 **Currently learning** | Vibe Coding, AI Agent. |
 | 🎓 **Education** | MSc in Computational Sciences. |
 | 💼 **Background** | 5+ years of experience as an Algorithm Engineer in the medical device industry. |
