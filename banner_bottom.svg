@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1565C0" />
+      <stop offset="100%" stop-color="#002244" />
+    </linearGradient>
+    
+    <style>
+      .wave1 { animation: wave 14s linear infinite; }
+      .wave2 { animation: wave 20s linear infinite; }
+      .wave3 { animation: wave 10s linear infinite; }
+      
+      @keyframes wave {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-1500px); }
+      }
+    </style>
+  </defs>
+  
+  <g transform="translate(0, 500) scale(1, -1)">
+    <rect width="1500" height="500" fill="url(#bg-grad)" />
+
+    <g>
+      <path class="wave1" d="M 0 500 V 380 Q 375 450 750 380 T 1500 380 T 2250 380 T 3000 380 V 500 Z" fill="#0d1117" opacity="0.4" />
+      <path class="wave2" d="M 0 500 V 420 Q 375 350 750 420 T 1500 420 T 2250 420 T 3000 420 V 500 Z" fill="#0d1117" opacity="0.7" />
+      <path class="wave3" d="M 0 500 V 450 Q 375 400 750 450 T 1500 450 T 2250 450 T 3000 450 V 500 Z" fill="#0d1117" />
+    </g>
+
+    <text x="750" y="230" font-family="Arial, Helvetica, sans-serif" font-size="95" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">Hi there! 👋 I'm Tom</text>
+    <text x="750" y="310" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="normal" fill="#e6edf3" text-anchor="middle" letter-spacing="1">Artificial Intelligence | High-Performance Computing | Computational Sciences</text>
+  </g>
+</svg>
