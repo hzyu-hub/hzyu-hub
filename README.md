@@ -38,11 +38,5 @@
 <br>
 
 <div align="center">
- <img width="500" src="https://github-readme-stats-fast.vercel.app/api?username=hzyu-hub&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<br/>  
-  <img width="500" src="https://github-readme-streak-stats.herokuapp.com/?user=hzyu-hub&theme=tokyonight&hide_border=true&stroke=00bfff&ring=00bfff&fire=00bfff&currStreakLabel=00bfff" />
-</div>
-<br/>
-<div align="center">
   <i>🚀 Architecting algorithms, optimizing performance, and building intelligent systems。</i>
 </div>
