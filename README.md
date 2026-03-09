@@ -38,5 +38,5 @@
 <br>
 
 <div align="center">
-  <i>🚀 Architecting algorithms, optimizing performance, and building intelligent systems。</i>
+  <b>🚀 Architecting algorithms, optimizing performance, and building intelligent systems.</b>
 </div>
