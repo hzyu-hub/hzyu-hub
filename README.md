@@ -4,10 +4,11 @@
   
   <br/>
   
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=hzyu-hub&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-  </p>
-
+<div align="center">
+  <a href="https://github.com/hzyu-hub?tab=followers">
+    <img src="https://img.shields.io/github/followers/hzyu-hub?label=FOLLOWERS&style=for-the-badge&color=00bfff&labelColor=4d4d4d" alt="Followers" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=hzyu-hub&label=PROFILE%20VIEWS&style=for-the-badge&color=00bfff&labelColor=4d4d4d" alt="Profile Views" />
 </div>
 
 <div align="center">
