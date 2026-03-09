@@ -10,19 +10,24 @@
 
 </div>
 
+<div align="center">
+
 ## 👨‍💻 About Me
 
-💡 **Passionate about high-performance computing, image processing, and artificial intelligence.**
+💡 **Passionate about artificial intelligence, high-performance computing, image processing, and rendering.**<br>
 ✨ Always exploring efficient ways to translate academic research into production-ready engineering solutions.
 
-| 🔭 Currently working on | A real-time voice translation application for macOS & AI model deployment projects. |
-| :--- | :--- |
-| 🌱 Currently learning | Vibe Coding, PyTorch, YOLOv8, ONNX, and TensorRT. |
-| 🎓 Education | MSc in Computational Sciences at Laurentian University (In Progress). |
-| 💼 Background | 5+ years of experience as an Algorithm Engineer in the medical device industry. |
-| 📫 How to reach me | [Your Email Address Here] |
+<br>
 
-<br/>
+| | |
+| :--- | :--- |
+| 🔭 **Currently working on** | A real-time voice translation application for macOS & AI model deployment projects. |
+| 🌱 **Currently learning** | Vibe Coding, AI Agent. |
+| 🎓 **Education** | MSc in Computational Sciences. |
+| 💼 **Background** | 5+ years of experience as an Algorithm Engineer in the medical device industry. |
+| 📫 **How to reach me** | https://x.com/Tomyu_2034 |
+
+</div>
 
 ## 🛠️ Tech Stack & Tools
 
