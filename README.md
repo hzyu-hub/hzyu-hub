@@ -44,7 +44,7 @@
   <img width="600" src="https://github-readme-streak-stats.herokuapp.com/?user=hzyu-hub&theme=tokyonight&hide_border=true&stroke=00bfff&ring=00bfff&fire=00bfff&currStreakLabel=00bfff" />
 </div>
 <br/>
-<hr>
+<br/>
 <div align="center">
   <i>🚀 Architecting algorithms, optimizing performance, and building intelligent systems。</i>
 </div>
