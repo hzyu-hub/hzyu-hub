@@ -1,13 +1,12 @@
 <div align="center">
 
-# Hi there! 👋 I'm Tom
-### Algorithm Engineer | HPC Specialist | Computational Sciences
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=hzyu-hub&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
-
----
+  <img src="banner.svg" alt="Profile Banner" width="100%" />
+  
+  <br/>
+  
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=hzyu-hub&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  </p>
 
 </div>
 
