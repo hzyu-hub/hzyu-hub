@@ -18,7 +18,7 @@
 <br>
 | | |
 | :--- | :--- |
-| 🔭 **Currently working on** | A real-time voice translation application for macOS & AI model deployment projects & Hackathon Challenge. |
+| 🔭 **Currently working on** | A real-time voice translation application for macOS & AI model deployment projects. |
 | 🌱 **Currently learning** | Vibe Coding, AI Agent. |
 | 🎓 **Education** | MSc in Computational Sciences. |
 | 💼 **Background** | 5+ years of experience as an Algorithm Engineer in the medical device industry. |
