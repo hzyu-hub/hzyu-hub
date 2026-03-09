@@ -23,7 +23,6 @@
 | 🎓 **Education** | MSc in Computational Sciences. |
 | 💼 **Background** | 5+ years of experience as an Algorithm Engineer in the medical device industry. |
 | 📫 **How to reach me** | https://x.com/Tomyu_2034 |
-
 </div>
 
 ## 🛠️ Tech Stack & Tools
@@ -37,13 +36,9 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </div>
 
-
 <div align="center">
-  <br/>
  <img width="600" src="https://github-readme-streak-stats.herokuapp.com/?user=hzyu-hub&theme=tokyonight&hide_border=true&stroke=00bfff&ring=00bfff&fire=00bfff&currStreakLabel=00bfff" />
 </div>
-
-<br/>
 
 <div align="center">
   <i>🚀 Architecting algorithms, optimizing performance, and building intelligent systems。</i>
