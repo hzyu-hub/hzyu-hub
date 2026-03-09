@@ -15,9 +15,7 @@
 💡 **Passionate about artificial intelligence, high-performance computing, image processing, and rendering.**<br>
 
 ✨ Always exploring efficient ways to translate academic research into production-ready engineering solutions.
-
 <br>
-
 | | |
 | :--- | :--- |
 | 🔭 **Currently working on** | Hackathon Challenge. |
