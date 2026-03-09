@@ -41,8 +41,6 @@
   <b>🚀 Architecting algorithms, optimizing performance, and building intelligent systems.</b>
 </div>
 
-<div align="center">
-  
-  <img src="banner_bottom.svg" alt="Bottom Banner" width="100%" />
-  
-  <br/>
+<div align="center">  
+  <img src="banner_bottom.svg" alt="Bottom Banner" width="100%" /> 
+<br/>
