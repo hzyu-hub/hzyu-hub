@@ -42,5 +42,7 @@
 </div>
 
 <div align="center">
+  
   <img src="banner_bottom.svg" alt="Bottom Banner" width="100%" />
-</div>
+  
+  <br/>
