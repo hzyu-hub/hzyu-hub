@@ -37,9 +37,6 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </div>
 
-<br/>
-
----
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hzyu-hub&show_icons=true&theme=tokyonight&hide_border=true&title_color=00bfff&icon_color=00bfff&text_color=ffffff&bg_color=0d1117" />
