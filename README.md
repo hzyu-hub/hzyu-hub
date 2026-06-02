@@ -19,21 +19,28 @@
 | | |
 | :--- | :--- |
 | 🔭 **Currently working on** | A real-time voice translation application for macOS & AI model deployment projects. |
-| 🌱 **Currently learning** | Vibe Coding, AI Agent. |
+| 🌱 **Currently learning** | AI-assisted software development, autonomous agents, and production AI systems. |
 | 🎓 **Education** | MSc in Computational Sciences. |
 | 💼 **Background** | 5+ years of experience as an Algorithm Engineer in the medical device industry. |
-| 📫 **How to reach me** | [X / Twitter](https://x.com/Tomyu_2034) · [LinkedIn](https://linkedin.com/in/tom-yu-66a85a335) |
+| 📫 **How to reach me** | <a href="https://x.com/Tomyu_2034"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a> <a href="https://linkedin.com/in/tom-yu-66a85a335"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> |
 </div>
 
 ## 🛠️ Tech Stack & Tools
 
 <div align="center">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+
+**Languages**  
+C++ · Python · MATLAB · CUDA · OpenCL
+
+**AI / Deployment**  
+PyTorch · ONNX Runtime · TensorRT · OpenCV
+
+**Graphics / Imaging**  
+OpenGL · Volume Rendering · 3D Reconstruction · Medical Image Processing
+
+**Tools**  
+Linux · CMake · Docker · Git · Qt
+
 </div>
 <br>
 
