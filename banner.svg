@@ -1,30 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="100%" height="100%" role="img" aria-labelledby="title desc">
+  <title id="title">Tom Yu profile banner</title>
+  <desc id="desc">Dark technical banner for AI, high-performance computing, medical imaging, and computational sciences.</desc>
+
   <defs>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1565C0" />
-      <stop offset="100%" stop-color="#002244" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f" />
+      <stop offset="45%" stop-color="#0b1f36" />
+      <stop offset="100%" stop-color="#061019" />
     </linearGradient>
-    
+
+    <radialGradient id="blue-glow" cx="32%" cy="34%" r="55%">
+      <stop offset="0%" stop-color="#3aa7ff" stop-opacity="0.34" />
+      <stop offset="42%" stop-color="#1565c0" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#1565c0" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="green-glow" cx="78%" cy="64%" r="45%">
+      <stop offset="0%" stop-color="#28d17c" stop-opacity="0.18" />
+      <stop offset="58%" stop-color="#28d17c" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#28d17c" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 H 0 V 48" fill="none" stroke="#8fbfff" stroke-width="1" opacity="0.10" />
+    </pattern>
+
+    <filter id="soft-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
     <style>
-      .wave1 { animation: wave 14s linear infinite; }
-      .wave2 { animation: wave 20s linear infinite; }
-      .wave3 { animation: wave 10s linear infinite; }
-      
-      @keyframes wave {
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .sans { font-family: Arial, Helvetica, sans-serif; }
+      .scan { animation: scan 7s ease-in-out infinite; }
+      .pulse { animation: pulse 3.8s ease-in-out infinite; transform-origin: center; }
+      .drift { animation: drift 16s linear infinite; }
+
+      @keyframes scan {
+        0%, 100% { transform: translateX(-260px); opacity: 0; }
+        18%, 72% { opacity: 0.34; }
+        50% { transform: translateX(260px); opacity: 0.22; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.46; }
+        50% { opacity: 0.95; }
+      }
+      @keyframes drift {
         0% { transform: translateX(0); }
-        100% { transform: translateX(-1500px); }
+        100% { transform: translateX(-240px); }
       }
     </style>
   </defs>
-  
-  <rect width="1500" height="500" fill="url(#bg-grad)" />
 
-  <g>
-    <path class="wave1" d="M 0 500 V 380 Q 375 450 750 380 T 1500 380 T 2250 380 T 3000 380 V 500 Z" fill="#0d1117" opacity="0.4" />
-    <path class="wave2" d="M 0 500 V 420 Q 375 350 750 420 T 1500 420 T 2250 420 T 3000 420 V 500 Z" fill="#0d1117" opacity="0.7" />
-    <path class="wave3" d="M 0 500 V 450 Q 375 400 750 450 T 1500 450 T 2250 450 T 3000 450 V 500 Z" fill="#0d1117" />
+  <rect width="1500" height="500" fill="url(#bg)" />
+  <rect width="1500" height="500" fill="url(#blue-glow)" />
+  <rect width="1500" height="500" fill="url(#green-glow)" />
+  <rect width="1500" height="500" fill="url(#grid)" opacity="0.55" />
+
+  <g class="drift" opacity="0.26">
+    <path d="M0 394 C180 344 300 442 480 390 S820 338 1020 396 1320 444 1560 382 1860 348 2040 392" fill="none" stroke="#58a6ff" stroke-width="2" />
+    <path d="M0 430 C220 390 320 468 540 426 S860 376 1050 432 1330 466 1560 424 1850 390 2040 430" fill="none" stroke="#2ea043" stroke-width="2" opacity="0.75" />
   </g>
 
-  <text x="750" y="230" font-family="Arial, Helvetica, sans-serif" font-size="95" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">Hi there! 👋 I'm Tom</text>
-  <text x="750" y="310" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="normal" fill="#e6edf3" text-anchor="middle" letter-spacing="1">Artificial Intelligence | High-Performance Computing | Computational Sciences</text>
+  <g opacity="0.42" stroke="#58a6ff" stroke-width="2" fill="none">
+    <path d="M965 120 L1105 82 L1255 145 L1375 112" />
+    <path d="M940 255 L1090 218 L1248 288 L1398 244" opacity="0.68" />
+    <path d="M1015 372 L1165 318 L1342 354" opacity="0.52" />
+  </g>
+
+  <g filter="url(#soft-glow)">
+    <circle class="pulse" cx="965" cy="120" r="5" fill="#58a6ff" />
+    <circle class="pulse" cx="1105" cy="82" r="4" fill="#79c0ff" />
+    <circle class="pulse" cx="1255" cy="145" r="5" fill="#2ea043" />
+    <circle class="pulse" cx="1375" cy="112" r="4" fill="#58a6ff" />
+    <circle class="pulse" cx="1090" cy="218" r="4" fill="#79c0ff" />
+    <circle class="pulse" cx="1248" cy="288" r="5" fill="#58a6ff" />
+    <circle class="pulse" cx="1342" cy="354" r="4" fill="#2ea043" />
+  </g>
+
+  <g class="scan">
+    <rect x="625" y="0" width="120" height="500" fill="#79c0ff" opacity="0.12" transform="skewX(-18)" />
+  </g>
+
+  <g transform="translate(118 128)">
+    <text class="mono" x="0" y="0" font-size="18" fill="#79c0ff" letter-spacing="4">ALGORITHM ENGINEER · MSC COMPUTATIONAL SCIENCES</text>
+    <text class="sans" x="0" y="92" font-size="92" font-weight="800" fill="#f0f6fc" letter-spacing="3">Tom Yu</text>
+    <rect x="0" y="122" width="650" height="2" fill="#58a6ff" opacity="0.72" />
+    <text class="sans" x="0" y="178" font-size="32" font-weight="600" fill="#c9d1d9" letter-spacing="1.2">AI · High-Performance Computing · Medical Imaging</text>
+
+    <g class="mono" font-size="18" font-weight="700" letter-spacing="1.4">
+      <rect x="0" y="222" width="186" height="42" rx="8" fill="#0d419d" opacity="0.82" />
+      <text x="22" y="249" fill="#e6edf3">CUDA / OpenCL</text>
+
+      <rect x="204" y="222" width="172" height="42" rx="8" fill="#1f6feb" opacity="0.74" />
+      <text x="226" y="249" fill="#e6edf3">ML Deployment</text>
+
+      <rect x="394" y="222" width="188" height="42" rx="8" fill="#238636" opacity="0.78" />
+      <text x="416" y="249" fill="#e6edf3">Volume Imaging</text>
+    </g>
+  </g>
+
+  <g class="mono" opacity="0.22" font-size="18" fill="#c9d1d9">
+    <text x="1045" y="188">for voxel in volume:</text>
+    <text x="1080" y="220">optimize(kernel)</text>
+    <text x="1016" y="252">deploy(model)</text>
+    <text x="1138" y="284">render(scene)</text>
+  </g>
+
+  <path d="M0 470 C250 438 390 486 620 462 S950 424 1210 462 1390 486 1500 462 V500 H0 Z" fill="#0d1117" opacity="0.82" />
 </svg>
