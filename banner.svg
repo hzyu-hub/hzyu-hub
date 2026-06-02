@@ -34,9 +34,7 @@
     </filter>
 
     <style>
-      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-      .display { font-family: Avenir Next, Segoe UI, Helvetica Neue, sans-serif; }
-      .label { font-family: Avenir Next, Segoe UI, Helvetica Neue, sans-serif; }
+      .text { font-family: Avenir Next, Segoe UI, Helvetica Neue, Arial, sans-serif; }
       .scan { animation: scan 7s ease-in-out infinite; }
       .pulse { animation: pulse 3.8s ease-in-out infinite; transform-origin: center; }
       .drift { animation: drift 16s linear infinite; }
@@ -88,12 +86,12 @@
   </g>
 
   <g transform="translate(118 128)">
-    <text class="label" x="0" y="0" font-size="16" font-weight="500" fill="#8fb6d8" letter-spacing="1.8">Algorithm Engineer · MSc Computational Sciences</text>
-    <text class="display" x="0" y="88" font-size="82" font-weight="700" fill="#eef3f7" letter-spacing="0.4">Tom Yu</text>
+    <text class="text" x="0" y="0" font-size="16" font-weight="500" fill="#8fb6d8" letter-spacing="1.8">Algorithm Engineer · MSc Computational Sciences</text>
+    <text class="text" x="0" y="88" font-size="82" font-weight="700" fill="#eef3f7" letter-spacing="0.4">Tom</text>
     <rect x="0" y="118" width="560" height="1.5" fill="#6f9fca" opacity="0.56" />
-    <text class="label" x="0" y="172" font-size="28" font-weight="500" fill="#bac7d2" letter-spacing="0.2">AI · High-Performance Computing · Medical Imaging</text>
+    <text class="text" x="0" y="172" font-size="28" font-weight="500" fill="#bac7d2" letter-spacing="0.2">AI · High-Performance Computing · Medical Imaging</text>
 
-    <g class="label" font-size="16" font-weight="600" letter-spacing="0.35">
+    <g class="text" font-size="16" font-weight="600" letter-spacing="0.35">
       <rect x="0" y="220" width="166" height="38" rx="6" fill="#15314d" opacity="0.72" />
       <text x="20" y="245" fill="#d7e1ea">CUDA / OpenCL</text>
 
@@ -105,7 +103,7 @@
     </g>
   </g>
 
-  <g class="mono" opacity="0.22" font-size="18" fill="#c9d1d9">
+  <g class="text" opacity="0.22" font-size="18" fill="#c9d1d9">
     <text x="1045" y="188">for voxel in volume:</text>
     <text x="1080" y="220">optimize(kernel)</text>
     <text x="1016" y="252">deploy(model)</text>
