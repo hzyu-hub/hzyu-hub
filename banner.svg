@@ -103,11 +103,11 @@
     </g>
   </g>
 
-  <g class="text" opacity="0.22" font-size="18" fill="#c9d1d9">
-    <text x="1045" y="188">for voxel in volume:</text>
-    <text x="1080" y="220">optimize(kernel)</text>
-    <text x="1016" y="252">deploy(model)</text>
-    <text x="1138" y="284">render(scene)</text>
+  <g class="text" opacity="0.18" font-size="15" fill="#c9d1d9" letter-spacing="0.3">
+    <text x="960" y="198">for voxel in volume:</text>
+    <text x="960" y="228">  optimize(kernel)</text>
+    <text x="960" y="258">  deploy(model)</text>
+    <text x="960" y="288">  render(scene)</text>
   </g>
 
   <path d="M0 470 C250 438 390 486 620 462 S950 424 1210 462 1390 486 1500 462 V500 H0 Z" fill="#0d1117" opacity="0.82" />
