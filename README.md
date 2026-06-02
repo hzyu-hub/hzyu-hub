@@ -22,7 +22,7 @@
 | 🌱 **Currently learning** | Vibe Coding, AI Agent. |
 | 🎓 **Education** | MSc in Computational Sciences. |
 | 💼 **Background** | 5+ years of experience as an Algorithm Engineer in the medical device industry. |
-| 📫 **How to reach me** | https://x.com/Tomyu_2034 |
+| 📫 **How to reach me** | [X / Twitter](https://x.com/Tomyu_2034) · [LinkedIn](https://linkedin.com/in/tom-yu-66a85a335) |
 </div>
 
 ## 🛠️ Tech Stack & Tools
