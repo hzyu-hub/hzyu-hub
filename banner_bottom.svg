@@ -21,9 +21,9 @@
  <rect width="1500" height="200" fill="url(#bg-grad)" />
 
  <g>
- <path class="wave1" d="M 0 200 V 150 Q 375 180 750 150 T 1500 150 T 2250 150 T 3000 150 V 200 Z" fill="#0d1117" opacity="0.4" />
- <path class="wave2" d="M 0 200 V 165 Q 375 135 750 165 T 1500 165 T 2250 165 T 3000 165 V 200 Z" fill="#0d1117" opacity="0.7" />
- <path class="wave3" d="M 0 200 V 180 Q 375 160 750 180 T 1500 180 T 2250 180 T 3000 180 V 200 Z" fill="#0d1117" />
+ <path class="wave1" d="M 0 200 V 147 Q 375 178 750 147 T 1500 147 T 2250 147 T 3000 147 V 200 Z" fill="#0d1117" opacity="0.4" />
+ <path class="wave2" d="M 0 200 V 164 Q 375 133 750 164 T 1500 164 T 2250 164 T 3000 164 V 200 Z" fill="#0d1117" opacity="0.7" />
+ <path class="wave3" d="M 0 200 V 178 Q 375 156 750 178 T 1500 178 T 2250 178 T 3000 178 V 200 Z" fill="#0d1117" />
  </g>
  </g>
 </svg>
