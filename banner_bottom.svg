@@ -1,29 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 250" width="100%" height="100%">
-  <defs>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1565C0" />
-      <stop offset="100%" stop-color="#002244" />
-    </linearGradient>
-    
-    <style>
-      .wave1 { animation: wave 14s linear infinite; }
-      .wave2 { animation: wave 20s linear infinite; }
-      .wave3 { animation: wave 10s linear infinite; }
-      
-      @keyframes wave {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(-1500px); }
-      }
-    </style>
-  </defs>
-  
-  <g transform="translate(0, 250) scale(1, -1)">
-    <rect width="1500" height="250" fill="url(#bg-grad)" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 200" width="100%" height="100%">
+ <defs>
+ <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#1565C0" />
+ <stop offset="100%" stop-color="#002244" />
+ </linearGradient>
+ 
+ <style>
+ .wave1 { animation: wave 14s linear infinite; }
+ .wave2 { animation: wave 20s linear infinite; }
+ .wave3 { animation: wave 10s linear infinite; }
+ 
+ @keyframes wave {
+ 0% { transform: translateX(0); }
+ 100% { transform: translateX(-1500px); }
+ }
+ </style>
+ </defs>
+ 
+ <g transform="translate(0, 200) scale(1, -1)">
+ <rect width="1500" height="200" fill="url(#bg-grad)" />
 
-    <g>
-      <path class="wave1" d="M 0 250 V 190 Q 375 225 750 190 T 1500 190 T 2250 190 T 3000 190 V 250 Z" fill="#0d1117" opacity="0.4" />
-      <path class="wave2" d="M 0 250 V 210 Q 375 175 750 210 T 1500 210 T 2250 210 T 3000 210 V 250 Z" fill="#0d1117" opacity="0.7" />
-      <path class="wave3" d="M 0 250 V 225 Q 375 200 750 225 T 1500 225 T 2250 225 T 3000 225 V 250 Z" fill="#0d1117" />
-    </g>
-  </g>
+ <g>
+ <path class="wave1" d="M 0 200 V 150 Q 375 180 750 150 T 1500 150 T 2250 150 T 3000 150 V 200 Z" fill="#0d1117" opacity="0.4" />
+ <path class="wave2" d="M 0 200 V 165 Q 375 135 750 165 T 1500 165 T 2250 165 T 3000 165 V 200 Z" fill="#0d1117" opacity="0.7" />
+ <path class="wave3" d="M 0 200 V 180 Q 375 160 750 180 T 1500 180 T 2250 180 T 3000 180 V 200 Z" fill="#0d1117" />
+ </g>
+ </g>
 </svg>
